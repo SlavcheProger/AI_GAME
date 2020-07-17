@@ -7,7 +7,8 @@ screen = display.set_mode((1890, 1417))
 
 display.set_caption("Turing's jorney")
 
-background = image.load('background.jpg')
+background = image.load('./продолжить ряд/1.png')
+screen.blit(background, (0, 0))
 
 for i in range(1, 17):
     background = image.load('./продолжить ряд/'+str(i)+'.png')
