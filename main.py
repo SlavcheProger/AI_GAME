@@ -15,7 +15,9 @@ for i in range(1, 17):
     screen.blit(background, (0, 0))
     display.flip()
 
-while 1:
-    for i in event.get(): # Перебор в списке событий
-        if i.type == QUIT: # Обрабатываем событие шечка по крестику закрытия окна
-            sys.exit()
+while running:
+    for e in event.get():
+        if e.type == QUIT:
+            running = False
+
+pygame.quit()
