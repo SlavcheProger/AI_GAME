@@ -3,7 +3,7 @@ import sys
 
 init()
 
-screen = display.set_mode((1890, 1417))
+screen = display.set_mode((0, 0), FULLSCREEN)
 
 
 display.set_caption('none')
@@ -13,18 +13,19 @@ background = image.load('./диалоги/0введение/1.png')
 
 screen.blit(background, (0, 0))
 for i in range(1, 17):
-    if 6 <= i <= 9:
-        time.delay(3500)
+    if i == 8:
+        time.delay(25000)
     else:
-        time.delay(300)
+        time.delay(100)
     background = image.load('./диалоги/0введение/' + str(i) + '.png')
+    w, h = display.get_surface().get_size()
+    background = transform.scale(background, (w, h))
     screen.blit(background, (0, 0))
     display.flip()
 
 
-
 while 1:
     for i in event.get():
-        if i.type == QUIT:
+        if i.type == K_ESCAPE:
 
             sys.exit()

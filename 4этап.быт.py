@@ -3,7 +3,7 @@ import sys
 
 init()
 
-screen = display.set_mode((1890, 1417))
+screen = display.set_mode((0, 0), FULLSCREEN)
 
 
 display.set_caption('none')
@@ -13,12 +13,12 @@ background = image.load('./диалоги/4этап(быт)/1.png')
 
 screen.blit(background, (0, 0))
 for i in range(1, 123):
-    if 22 <= i <= 27:
-        time.delay(2500)
-    elif 45 <= i <= 50:
-        time.delay(2500)
-    elif 78 <= i <= 83:
-        time.delay(1500)
+    if i == 25:
+        time.delay(25000)
+    elif i == 47:
+        time.delay(25000)
+    elif i == 80:
+        time.delay(15000)
     elif 85 <= i <= 93:
         time.delay(300)
     elif 64 <= i <= 77:
@@ -26,10 +26,10 @@ for i in range(1, 123):
     else:
         time.delay(400)
     background = image.load('./диалоги/4этап(быт)/' + str(i) + '.png')
+    w, h = display.get_surface().get_size()
+    background = transform.scale(background, (w, h))
     screen.blit(background, (0, 0))
     display.flip()
-
-
 
 while 1:
     for i in event.get():
