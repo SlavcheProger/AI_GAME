@@ -3,7 +3,7 @@ import sys
 
 init()
 
-screen = display.set_mode((0, 0), FULLSCREEN)
+screen = display.set_mode((600, 600))
 
 
 display.set_caption('none')
@@ -17,6 +17,8 @@ for i in range(1, 83):
         time.delay(25000)
     elif 51 <= i <= 57:
         time.delay(150)
+    elif i == 77:
+        time.delay(4000)
     else:
         time.delay(250)
     background = image.load('./диалоги/2этап(шахматы)/' + str(i) + '.png')
@@ -30,7 +32,10 @@ for i in range(1, 83):
 running = True
 while running:
     for e in event.get():
-        if e.type == K_ESCAPE:
+        if e.type == QUIT:
             running = False
+        elif e.type == KEYDOWN:
+            if e.key == K_ESCAPE:
+                running = False
 
 quit()

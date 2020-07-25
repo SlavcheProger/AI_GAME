@@ -1,0 +1,19 @@
+images:
+1.pinterest.co.uk(robot)
+2.do-24.ru(cabinet)
+3.zen.yandex.ru(Alan)
+4.shuka.desidn(second step)
+5.zen.yandex.ru(Hippocrates)
+6.mediarb.ru(task.education)
+7.switch-case.ru(square 4*4)
+8.kuka.com(third)
+9.vechorka.ru(tunnel 2)
+10.yandex.ru(division of the square.life)
+11.knapp.com(game.medicine.pharmacy
+12.vsevesti24.ru(last step)
+13.kbect.ru(math)
+14.potehechas.ru(chess)
+
+games:
+1."Кентерберийские головоломки" Генри Э. Дьюдени.
+2."170 самых сложных в мире головоломок" Гэри Грубер.

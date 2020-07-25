@@ -20,47 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87541659-c606-476b-af74-6b2de3691800" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/пазлы.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/пятнашки2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0.введение.py" beforeDir="false" afterPath="$PROJECT_DIR$/0.введение.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1этап.встреча.py" beforeDir="false" afterPath="$PROJECT_DIR$/1этап.встреча.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2этап.шахматы.py" beforeDir="false" afterPath="$PROJECT_DIR$/2этап.шахматы.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3этап.медицина.py" beforeDir="false" afterPath="$PROJECT_DIR$/3этап.медицина.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4этап.быт.py" beforeDir="false" afterPath="$PROJECT_DIR$/4этап.быт.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/гиппократ/портрет/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/гиппократ/портрет/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/гиппократ/портрет/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/гиппократ/портрет/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/гиппократ/портрет/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/гиппократ/портрет/14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/гиппократ/портрет/15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/гиппократ/портрет/16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/гиппократ/портрет/17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/гиппократ/портрет/18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/гиппократ/портрет/19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/гиппократ/портрет/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/гиппократ/портрет/20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/гиппократ/портрет/21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/гиппократ/портрет/22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/гиппократ/портрет/23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/гиппократ/портрет/24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/гиппократ/портрет/25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/гиппократ/портрет/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/гиппократ/портрет/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/гиппократ/портрет/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/гиппократ/портрет/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/гиппократ/портрет/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/гиппократ/портрет/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/гиппократ/портрет/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alan.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timmi.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/встреча1.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/гиппократ1.ai" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/игра.найтивыражение.py" beforeDir="false" afterPath="$PROJECT_DIR$/игра.найтивыражение.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/игра.продолжитьряд.py" beforeDir="false" afterPath="$PROJECT_DIR$/игра.продолжитьряд.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/игра.разделение квадрата.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/игра.соотвествие.py" beforeDir="false" afterPath="$PROJECT_DIR$/игра.соотвествие.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/игра.шахматы.py" beforeDir="false" afterPath="$PROJECT_DIR$/игра.шахматы.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/первыйслайд.py" beforeDir="false" afterPath="$PROJECT_DIR$/первыйслайд.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/пазлы.py" beforeDir="false" afterPath="$PROJECT_DIR$/пазлы.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/разбиение квадрата(образование).ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/следующее число.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/шахматы(второй этап).ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/шахматы.ai" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,10 +134,10 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="393" y="27" key="CommitChangelistDialog2/0.0.1474.864@0.0.1474.864" timestamp="1595445087432" />
-    <state x="868" y="514" width="606" height="349" key="com.intellij.ide.util.TipDialog" timestamp="1595583508440">
+    <state x="868" y="514" width="606" height="349" key="com.intellij.ide.util.TipDialog" timestamp="1595671550991">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="868" y="514" width="606" height="349" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1595583508440" />
+    <state x="868" y="514" width="606" height="349" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1595671550991" />
     <state x="400" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1595516040816">
       <screen x="0" y="0" width="1474" height="864" />
     </state>

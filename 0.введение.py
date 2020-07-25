@@ -3,7 +3,8 @@ import sys
 
 init()
 
-screen = display.set_mode((0, 0), FULLSCREEN)
+
+screen = display.set_mode((600, 600))
 
 
 display.set_caption('none')
@@ -23,9 +24,12 @@ for i in range(1, 17):
     screen.blit(background, (0, 0))
     display.flip()
 
-
-while 1:
-    for i in event.get():
-        if i.type == K_ESCAPE:
-
-            sys.exit()
+running = True
+while running:
+    for e in event.get():
+        if e.type == QUIT:
+            running = False
+        elif e.type == KEYDOWN:
+            if e.key == K_ESCAPE:
+                running = False
+quit()

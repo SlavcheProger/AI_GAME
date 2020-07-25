@@ -3,7 +3,7 @@ import sys
 
 init()
 
-screen = display.set_mode((0, 0), FULLSCREEN)
+screen = display.set_mode((600, 600))
 
 
 display.set_caption('none')
@@ -15,9 +15,10 @@ screen.blit(background, (0, 0))
 for i in range(1, 69):
     if i == 14:
         time.delay(25000)
-
+    elif i == 25 or i == 33 or i == 42 or i == 50 or i == 63:
+        time.delay(4000)
     else:
-        time.delay(350)
+        time.delay(250)
     background = image.load('./диалоги/3этап(медицина)/' + str(i) + '.png')
     w, h = display.get_surface().get_size()
     background = transform.scale(background, (w, h))
@@ -27,7 +28,10 @@ for i in range(1, 69):
 running = True
 while running:
     for e in event.get():
-        if e.type == K_ESCAPE:
+        if e.type == QUIT:
             running = False
+        elif e.type == KEYDOWN:
+            if e.key == K_ESCAPE:
+                running = False
 
 quit()
