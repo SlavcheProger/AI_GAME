@@ -12,10 +12,7 @@ width = 80  # ширина клетки( и объекта)
 height = 80  # высота клетки ( и объекта)
 
 margin = 1  # промежуток между клетками
-
 window = pygame.display.set_mode(((width +margin)*n+margin,(height+margin)*n+margin))
-
-
 screen = pygame.Surface(((width + margin) * n + margin, (height + margin) * n + margin))
 
 koo = []  # список нач. координат до перемещения
@@ -23,6 +20,7 @@ all_s = []  # список всех объектов
 
 koor = []  # список координат разницы между обьуктом и мышкой
 grid = []  # список занятых и свободных клеток
+
 for row in range(n):
 
     grid.append([])
@@ -72,7 +70,6 @@ class Sprite:
 
     def mouv(self):  # движение объекта с мышкой
 
-
         pos = pygame.mouse.get_pos()
 
         # Теперь  игрок имеет координаты мышки с учетом разницы координат
@@ -80,7 +77,7 @@ class Sprite:
         self.y = pos[1] - koor[1]
         # условие границ поля
 
-        if self.x < -10:
+        if self.x < 0:
             self.x = koo[0]
             self.y = koo[1]
             self.action = False
@@ -88,7 +85,7 @@ class Sprite:
             self.x = koo[0]
             self.y = koo[1]
             self.action = False
-        if self.y < -10:
+        if self.y < 0:
             self.x = koo[0]
             self.y = koo[1]
             self.action = False
@@ -115,7 +112,12 @@ hero9 = Sprite((width +margin)*(1)+margin,margin+(height +margin)*(2), ('./па�
 hero10 = Sprite((width +margin)*(1)+margin,margin+(height +margin)*(6), ('./пазлы/10.png'))
 hero11 = Sprite(margin+(width +margin)*(n-8),margin+(height +margin)*(7), ('./пазлы/11.png'))
 hero12 = Sprite((width +margin)*(7)+margin,margin+(height +margin)*(6), ('./пазлы/12.png'))
+<<<<<<< HEAD
 hero13 = Sprite(0, 0, './пазлы/13.png')
+=======
+hero13 = Sprite(0, 0, ('./пазлы/13.png'))
+
+>>>>>>> 4e0c7e800c836cde8042d7ae3a2a15d304455183
 dum = True
 while dum:
     screen.fill((10, 10, 100))
@@ -133,6 +135,7 @@ while dum:
 
         if e.type == pygame.MOUSEBUTTONUP and e.button == 1:  # если отпущена лкм
 
+<<<<<<< HEAD
             for i in all_s:
                 if i.action == True:
                     i.funtion()  # перемещение объекта точно в клетку
@@ -143,6 +146,17 @@ while dum:
                 i.mesto()
             koor = []
             koo = []
+=======
+        for i in all_s:
+            if i.action == True:
+                i.funtion()  # перемещение объекта точно в клетку
+                i.action = False
+                i.mesto()
+
+        koor = []
+        koo = []
+
+>>>>>>> 4e0c7e800c836cde8042d7ae3a2a15d304455183
     for i in all_s:
         if i.action == True:
             i.mouv()  # перемещение объекта мышкой
@@ -153,3 +167,11 @@ while dum:
     window.blit(screen, (0, 0))
 
     pygame.display.flip()
+
+    for r in grid:
+        s = ''
+        for c in r:
+            s = s + str(c) + ' '
+        print(s)
+
+    print("**********")
