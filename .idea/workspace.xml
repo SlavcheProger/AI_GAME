@@ -20,9 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87541659-c606-476b-af74-6b2de3691800" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/draw_demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0.введение.py" beforeDir="false" afterPath="$PROJECT_DIR$/0.введение.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1этап.встреча.py" beforeDir="false" afterPath="$PROJECT_DIR$/1этап.встреча.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2этап.шахматы.py" beforeDir="false" afterPath="$PROJECT_DIR$/2этап.шахматы.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3этап.медицина.py" beforeDir="false" afterPath="$PROJECT_DIR$/3этап.медицина.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4этап.быт.py" beforeDir="false" afterPath="$PROJECT_DIR$/4этап.быт.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alan.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timmi.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/встреча1.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/гиппократ1.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/игра.найтивыражение.py" beforeDir="false" afterPath="$PROJECT_DIR$/игра.найтивыражение.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/игра.продолжитьряд.py" beforeDir="false" afterPath="$PROJECT_DIR$/игра.продолжитьряд.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/игра.соотвествие.py" beforeDir="false" afterPath="$PROJECT_DIR$/игра.соотвествие.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/пазлы.py" beforeDir="false" afterPath="$PROJECT_DIR$/пазлы.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/разбиение квадрата(образование).ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/следующее число.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/шахматы(второй этап).ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/шахматы.ai" beforeDir="false" />
+>>>>>>> 5d9cc48719c4a5ceb25cb3af8853a1b4d8cab70d
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +71,34 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
+  <component name="RunManager">
+    <configuration name="пятнашки2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AI_GAME" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/пятнашки2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.пятнашки2" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -76,12 +125,31 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="465" y="47" key="#пятнашки2" timestamp="1595445096344">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="465" y="47" key="#пятнашки2/0.0.1474.864@0.0.1474.864" timestamp="1595445096344" />
+    <state x="393" y="27" key="CommitChangelistDialog2" timestamp="1595445087432">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="393" y="27" key="CommitChangelistDialog2/0.0.1474.864@0.0.1474.864" timestamp="1595445087432" />
+    <state x="868" y="514" width="606" height="349" key="com.intellij.ide.util.TipDialog" timestamp="1595671550991">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="868" y="514" width="606" height="349" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1595671550991" />
+    <state x="400" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1595516040816">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="400" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1474.864@0.0.1474.864" timestamp="1595516040816" />
   </component>
   <component name="WindowStateProjectService">
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595252920298">
