@@ -115,7 +115,7 @@ hero9 = Sprite((width +margin)*(1)+margin,margin+(height +margin)*(2), ('./па�
 hero10 = Sprite((width +margin)*(1)+margin,margin+(height +margin)*(6), ('./пазлы/10.png'))
 hero11 = Sprite(margin+(width +margin)*(n-8),margin+(height +margin)*(7), ('./пазлы/11.png'))
 hero12 = Sprite((width +margin)*(7)+margin,margin+(height +margin)*(6), ('./пазлы/12.png'))
-hero13 = Sprite(0, 0, ('./пазлы/13.png'))
+hero13 = Sprite(0, 0, './пазлы/13.png')
 dum = True
 while dum:
     screen.fill((10, 10, 100))
@@ -131,18 +131,18 @@ while dum:
             for i in all_s:  # захват объекта
                 i.bum()
 
-    if e.type == pygame.MOUSEBUTTONUP and e.button == 1:  # если отпущена лкм
+        if e.type == pygame.MOUSEBUTTONUP and e.button == 1:  # если отпущена лкм
 
-        for i in all_s:
-            if i.action == True:
-                i.funtion()  # перемещение объекта точно в клетку
-        for i in all_s:
-            i.action = False
+            for i in all_s:
+                if i.action == True:
+                    i.funtion()  # перемещение объекта точно в клетку
+            for i in all_s:
+                i.action = False
 
-        for i in all_s:  # запись положения объекта в список grid
-            i.mesto()
-        koor = []
-        koo = []
+            for i in all_s:  # запись положения объекта в список grid
+                i.mesto()
+            koor = []
+            koo = []
     for i in all_s:
         if i.action == True:
             i.mouv()  # перемещение объекта мышкой
