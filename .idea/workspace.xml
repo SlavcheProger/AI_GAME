@@ -20,22 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87541659-c606-476b-af74-6b2de3691800" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/draw_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_meet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/intro.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/продолжить ряд/demo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AI_GAME.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0.введение.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1этап.встреча.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/пазлы.py" beforeDir="false" afterPath="$PROJECT_DIR$/пазлы.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2этап.шахматы.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3этап.медицина.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4этап.быт.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/игра.найтивыражение.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/игра.продолжитьряд.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/игра.разделениеквадрата.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/игра.соотвествие.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/игра.шахматы.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/пазлы.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/первыйслайд.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/пятнашки2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/туннель/туннель2.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,10 +130,10 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="393" y="27" key="CommitChangelistDialog2/0.0.1474.864@0.0.1474.864" timestamp="1595445087432" />
-    <state x="803" y="510" width="606" height="349" key="com.intellij.ide.util.TipDialog" timestamp="1595855147517">
+    <state x="803" y="510" width="606" height="349" key="com.intellij.ide.util.TipDialog" timestamp="1595932353339">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="803" y="510" width="606" height="349" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1595855147517" />
+    <state x="803" y="510" width="606" height="349" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1595932353339" />
     <state x="400" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1595516040816">
       <screen x="0" y="0" width="1474" height="864" />
     </state>

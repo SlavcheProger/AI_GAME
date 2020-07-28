@@ -4,7 +4,7 @@
 import sys
 import os
 import pygame
-
+def show(screen, display):
 WHITE = (255, 255, 255)
 pygame.init()
 n = 8  # количество клеток квадратного поля игры
@@ -12,7 +12,6 @@ width = 80  # ширина клетки( и объекта)
 height = 80  # высота клетки ( и объекта)
 
 margin = 1  # промежуток между клетками
-window = pygame.display.set_mode(((width +margin)*n+margin,(height+margin)*n+margin))
 screen = pygame.Surface(((width + margin) * n + margin, (height + margin) * n + margin))
 
 koo = []  # список нач. координат до перемещения
