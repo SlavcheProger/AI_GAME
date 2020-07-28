@@ -21,19 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="87541659-c606-476b-af74-6b2de3691800" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2этап.шахматы.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3этап.медицина.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4этап.быт.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/игра.найтивыражение.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/игра.продолжитьряд.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/игра.разделениеквадрата.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/игра.соотвествие.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/игра.шахматы.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/пазлы.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/первыйслайд.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/пятнашки2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/туннель/туннель2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/сontinue_the_series.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
