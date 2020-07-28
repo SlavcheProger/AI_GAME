@@ -3,7 +3,7 @@ import sys
 import intro
 import first_meet
 import first_slide
-import continue_the_series
+import сontinue_the_series
 import second_chess
 import find_an_expression
 import third_medicine
@@ -18,7 +18,7 @@ first_slide.show(screen, display)
 intro.show(screen, display)
 first_meet.show(screen, display)
 background = image.load('background1')
-continue_the_series.show(screen, display)
+сontinue_the_series.show(screen, display)
 background2 = image.load('background1')
 #puzzles
 background3 = image.load('tunnel')
