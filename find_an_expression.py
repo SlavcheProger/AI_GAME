@@ -12,6 +12,9 @@ def show(screen, display):
     screen.blit(background, (0, 0))
 
     for i in range(1, 6):
+        for e in event.get():
+            if e.type == QUIT:
+                quit()
         time.delay(150)
         background = image.load('./найти правдивое выражение/' + str(i) + '.png')
         w, h = display.get_surface().get_size()
@@ -32,13 +35,6 @@ def show(screen, display):
     img = f.render('WIN', True, (0, 255, 34))
     screen.blit(img, (100, 100))
     display.update()
+    time.delay(700)
 
-    running = True
-    while running:
-        for e in event.get():
-            if e.type == QUIT:
-                running = False
-            elif e.type == KEYDOWN:
-                if e.key == K_ESCAPE:
-                    running = False
-    quit()
+

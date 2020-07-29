@@ -10,6 +10,9 @@ def show(screen, display):
 
     screen.blit(background, (0, 0))
     for i in range(1, 17):
+        for e in event.get():
+            if e.type == QUIT:
+                quit()
         background = image.load('./продолжить ряд/' + str(i) + '.png')
         w, h = display.get_surface().get_size()
         background = transform.scale(background, (w, h))
@@ -26,17 +29,11 @@ def show(screen, display):
         time.delay(700)
         text = EditText(screen, background, 600 // 2, 600 - 100)
 
+    flag = True
     f = font.SysFont(None, 300)
     img = f.render('WIN', True, (0, 255, 34))
+    flag = False
     screen.blit(img, (100, 100))
     display.update()
+    time.delay(700)
 
-    running = True
-    while running:
-        for e in event.get():
-            if e.type == QUIT:
-                running = False
-            elif e.type == KEYDOWN:
-                if e.key == K_ESCAPE:
-                    running = False
-    quit()

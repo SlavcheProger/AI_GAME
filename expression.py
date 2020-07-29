@@ -2,7 +2,6 @@ from pygame import *
 import sys
 from textediting import *
 
-init()
 
 def show(screen, display):
 
@@ -11,6 +10,9 @@ def show(screen, display):
 
     screen.blit(background, (0, 0))
     for i in range(1, 7):
+        for e in event.get():
+            if e.type == QUIT:
+                quit()
         background = image.load('./соотвествие/' + str(i) + '.png')
         w, h = display.get_surface().get_size()
         background = transform.scale(background, (w, h))
@@ -30,13 +32,6 @@ def show(screen, display):
     img = f.render('WIN', True, (0,255,34))
     screen.blit(img, (100, 100))
     display.update()
+    time.delay(700)
 
-    running = True
-    while running:
-        for e in event.get():
-            if e.type == QUIT:
-                running = False
-            elif e.type == KEYDOWN:
-                if e.key == K_ESCAPE:
-                    running = False
-    quit()
+
