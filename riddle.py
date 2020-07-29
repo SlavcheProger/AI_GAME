@@ -13,6 +13,8 @@ window = pygame.display.set_mode((600, 600))
 background = pygame.image.load('./гиппократ/5.png')
 action = False
 
+mp = pygame.mouse.get_pos()
+
 n = 4  # количество клеток квадратного поля игры
 width = 150  # ширина клетки( и объекта)
 height = 150  # высота клетки ( и объекта)
@@ -26,6 +28,23 @@ all_s = []
 orig = []
 
 
+def drawField():
+    for row in range(n):  # рисуем игровое поле
+        for column in range(n):
+            color = WHITE
+            pygame.draw.rect(screen,
+                             color,
+                             [(margin + width) * column + margin,
+                              (margin + height) * row + margin,
+                              width,
+                              height])
+
+    for i in all_s:  # запись положения объекта в список grid
+        i.mesto()
+
+    for i in all_s:
+        i.render()
+        
 class Sprite:
     def __init__(self, xpos, ypos, filename):
         self.x = xpos
@@ -87,6 +106,15 @@ class Sprite:
         self.row = self.y // (height + margin)
         grid[self.row][self.column] = 1
 
+        '''
+        print(grid)
+        for r in grid:
+            s = ''
+            for c in r:
+                s = s + str(c) + ' '
+            print(s)
+        print("*****")
+'''
     def render(self):  # отображение обьекта на игровом поле(экране)
         screen.blit(self.image, (self.x, self.y))
 
@@ -168,6 +196,8 @@ while done:  # условие существования игрового цик
                 sys.exit()
         elif e.type == pygame.K_SPACE:
             random.shuffle(koordin)
+            print('koordfhkjsdhfkjsdhkjfhskdjhfkjsdhfkjhsdkjfhskjdhfkjsdhkjhdin', koordin)
+            drawField()
             sys.exit()
         else:
             if e.type == pygame.MOUSEBUTTONDOWN:  # если событие мышь
@@ -183,23 +213,7 @@ while done:  # условие существования игрового цик
             for i in all_s:
                 i.mouv()
 
-
-
-    for row in range(n):  # рисуем игровое поле
-        for column in range(n):
-            color = WHITE
-            pygame.draw.rect(screen,
-                             color,
-                             [(margin + width) * column + margin,
-                              (margin + height) * row + margin,
-                              width,
-                              height])
-
-    for i in all_s:  # запись положения объекта в список grid
-        i.mesto()
-
-    for i in all_s:
-        i.render()
+    drawField()
 
     window.blit(screen, (0, 0))  # на окне прорисовываем поле игры
 

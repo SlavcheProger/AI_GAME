@@ -28,9 +28,16 @@
       <change beforePath="$PROJECT_DIR$/find_an_expression.py" beforeDir="false" afterPath="$PROJECT_DIR$/find_an_expression.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fourth_life.py" beforeDir="false" afterPath="$PROJECT_DIR$/fourth_life.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/game.py" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/riddle.py" beforeDir="false" afterPath="$PROJECT_DIR$/riddle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/second_chess.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_chess.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/third_medicine.py" beforeDir="false" afterPath="$PROJECT_DIR$/third_medicine.py" afterDir="false" />
+=======
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/сontinue_the_series.py" beforeDir="false" />
+>>>>>>> ecb285a662ce725ebdc843f030b90263c4621548
+>>>>>>> 546225d60d1806cc3eb4ad9f4cc472c0e6d9cf23
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,34 +65,6 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager">
-    <configuration name="пятнашки2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AI_GAME" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/пятнашки2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.пятнашки2" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -110,13 +89,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="465" y="47" key="#пятнашки2" timestamp="1595445096344">
