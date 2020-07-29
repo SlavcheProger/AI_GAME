@@ -1,5 +1,6 @@
 from pygame import *
 import sys
+from threading import Thread
 
 init()
 
@@ -17,6 +18,7 @@ def show(screen, display):
             time.delay(4000)
         else:
             time.delay(250)
+
         background = image.load('./диалоги/2этап(шахматы)/' + str(i) + '.png')
         w, h = display.get_surface().get_size()
         background = transform.scale(background, (w, h))
@@ -24,14 +26,18 @@ def show(screen, display):
         display.flip()
 
 
-
+def checkEvent():
     running = True
     while running:
         for e in event.get():
             if e.type == QUIT:
                 running = False
-            elif e.type == KEYDOWN:
-                if e.key == K_ESCAPE:
-                    running = False
-
     quit()
+
+def start(screen, display):
+    thread1 = Thread(target=checkEvent, args=())
+    thread2 = Thread(target=show, args=(screen, display))
+    thread1.start()
+    thread2.start()
+    thread1.join()
+    thread2.join()

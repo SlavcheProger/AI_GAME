@@ -13,7 +13,7 @@ import fourth_life
 init()
 screen = display.set_mode((600, 600))
 display.set_caption('none')
-
+'''
 first_slide.show(screen, display)
 intro.show(screen, display)
 first_meet.show(screen, display)
@@ -21,10 +21,11 @@ first_meet.show(screen, display)
 background = image.load('./background1.jpg')
 continue_the_series.show(screen, display)
 background2 = image.load('./background1.jpg')
-
+'''
 #puzzles
+
 background3 = image.load('./tunnel.jpg')
-second_chess.show(screen, display)
+second_chess.start(screen, display)
 background4 = image.load('./background1.jpg')
 #riddle
 background5 = image.load('./background1.jpg')
