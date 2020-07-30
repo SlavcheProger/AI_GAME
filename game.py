@@ -10,26 +10,12 @@ import third_medicine
 import expression
 import fourth_life
 import tunnel
+import division_square
+import puzzles
 
 init()
 screen = display.set_mode((600, 600))
-<<<<<<< HEAD
-display.set_caption('none')
-'''
-first_slide.show(screen, display)
-intro.show(screen, display)
-first_meet.show(screen, display)
 
-background = image.load('./background1.jpg')
-continue_the_series.show(screen, display)
-background2 = image.load('./background1.jpg')
-'''
-#puzzles
-
-background3 = image.load('./tunnel.jpg')
-second_chess.start(screen, display)
-background4 = image.load('./background1.jpg')
-=======
 display.set_caption('Support Organization')
 
 #first_slide.show(screen, display)
@@ -45,27 +31,28 @@ display.set_caption('Support Organization')
 #display.flip()
 #time.delay(100)
 
-#puzzles
+#puzzles.show(screen, display)
 #tunnel.show(screen, display)
-second_chess.start(screen, display)
->>>>>>> 69fc2a91c18108b72dcf3c10a049824d872ca7bb
+
+#second_chess.start(screen, display)
+
 #riddle
-background5 = image.load('./background1.jpg')
-screen.blit(background, (0, 0))
-display.flip()
-time.delay(100)
-find_an_expression.show(screen, display)
-tunnel.show(screen, display)
-third_medicine.show(screen, display)
-screen.blit(background, (0, 0))
-display.flip()
-time.delay(100)
-#division square
-screen.blit(background, (0, 0))
-display.flip()
-time.delay(100)
-expression.show(screen, display)
-tunnel.show(screen, display)
-fourth_life.show(screen, display)
+#background5 = image.load('./background1.jpg')
+#screen.blit(background, (0, 0))
+#display.flip()
+#time.delay(100)
+#find_an_expression.show(screen, display)
+#tunnel.show(screen, display)
+#third_medicine.show(screen, display)
+#screen.blit(background, (0, 0))
+#display.flip()
+#time.delay(100)
+division_square.show(screen, display)
+#screen.blit(background, (0, 0))
+#display.flip()
+#time.delay(100)
+#expression.show(screen, display)
+#tunnel.show(screen, display)
+#fourth_life.show(screen, display)
 
 quit()

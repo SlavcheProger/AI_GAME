@@ -199,7 +199,6 @@ while done:  # условие существования игрового цик
                 sys.exit()
         elif e.type == pygame.K_SPACE:
             random.shuffle(koordin)
-            print('koordfhkjsdhfkjsdhkjfhskdjhfkjsdhfkjhsdkjfhskjdhfkjsdhkjhdin', koordin)
             drawField()
             sys.exit()
         else:
@@ -221,6 +220,7 @@ while done:  # условие существования игрового цик
     window.blit(screen, (0, 0))  # на окне прорисовываем поле игры
 
     pygame.display.flip()  # отображаем полностью дисплей(окно)
+<<<<<<< HEAD
 
     if koordin == koord:
 
@@ -228,3 +228,10 @@ while done:  # условие существования игрового цик
         img = f.render('WIN', True, (255, 0, 68))
         screen.blit(img, (100, 100))
         display.update()
+=======
+if functools.reduce(lambda x, y : x and y, map(lambda p, q: p == q,koordin, koord), True):
+    f = font.SysFont(None, 300)
+    img = f.render('WIN', True, (255, 0, 68))
+    screen.blit(img, (100, 100))
+    display.update()
+>>>>>>> 3c997cb304eee968980ac2388ab9ff068e9d5853

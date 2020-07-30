@@ -24,3 +24,4 @@ def show(screen, display):
         background = transform.scale(background, (w, h))
         screen.blit(background, (0, 0))
         display.flip()
+
