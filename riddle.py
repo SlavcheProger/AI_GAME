@@ -135,6 +135,7 @@ hero13 = Sprite(margin, margin + (height + margin) * 3, ('13.gif'))
 hero14 = Sprite(margin + (width + margin), margin + (height + margin) * 3, ('14.gif'))
 hero15 = Sprite(margin + (width + margin) * 2, margin + (height + margin) * 3, ('15.gif'))
 # создаём список координат клеточек (правильный)
+
 koord = [(margin, margin),
          (margin + (width + margin), margin),
          ((width + margin) * 2 + margin, margin),
@@ -151,7 +152,25 @@ koord = [(margin, margin),
          (margin + (width + margin), margin + (height + margin) * 3),
          (margin + (width + margin) * 2, margin + (height + margin) * 3)]
 
+koordin = [(margin, margin),
+         (margin + (width + margin), margin),
+         ((width + margin) * 2 + margin, margin),
+         ((width + margin) * 3 + margin, margin),
+         (margin, margin + (height + margin)),
+         (margin + (width + margin), margin + (height + margin)),
+         (margin + (width + margin) * 2, margin + (height + margin)),
+         (margin + (width + margin) * 3, margin + (height + margin)),
+         (margin, margin + (height + margin) * 2),
+         (margin + (width + margin), margin + (height + margin) * 2),
+         (margin + (width + margin) * 2, margin + (height + margin) * 2),
+         (margin + (width + margin) * 3, margin + (height + margin) * 2),
+         (margin, margin + (height + margin) * 3),
+         (margin + (width + margin), margin + (height + margin) * 3),
+         (margin + (width + margin) * 2, margin + (height + margin) * 3)]
+
+
 # перемешиваем список координат случайным образом
+'''''
 koordin = [(margin + (width + margin), margin + (height + margin) * 3),
            (margin + (width + margin) * 2, margin + (height + margin) * 3),
            ((width + margin) * 2 + margin, margin),
@@ -167,7 +186,7 @@ koordin = [(margin + (width + margin), margin + (height + margin) * 3),
            (margin + (width + margin) * 3, margin + (height + margin) * 2),
            (margin, margin + (height + margin)),
            (margin + (width + margin) * 2, margin + (height + margin))]
-
+'''
 # пятнашкам присваиваем случайные координаты с перемешанного списка
 i = 0
 for e in orig:

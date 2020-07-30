@@ -33,7 +33,7 @@ display.set_caption('Support Organization')
 #puzzles.show(screen, display)
 #tunnel.show(screen, display)
 #second_chess.start(screen, display)
-#riddle
+riddle
 #background5 = image.load('./background1.jpg')
 #screen.blit(background, (0, 0))
 #display.flip()
