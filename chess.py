@@ -8,6 +8,9 @@ def show(screen, display):
 
     screen.blit(background, (0, 0))
     for i in range(1, 20):
+        for e in event.get():
+            if e.type == QUIT:
+                quit()
         background = image.load('./шахматы.игра/' + str(i) + '.png')
         w, h = display.get_surface().get_size()
         background = transform.scale(background, (w, h))
@@ -21,4 +24,3 @@ def show(screen, display):
             if e.type == K_ESCAPE:
                 running = False
 
-    quit()

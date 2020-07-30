@@ -10,6 +10,9 @@ def show(screen, display):
 
     screen.blit(background, (0, 0))
     for i in range(1, 69):
+        for e in event.get():
+            if e.type == QUIT:
+                quit()
         if i == 14:
             time.delay(25000)
         elif i == 25 or i == 33 or i == 42 or i == 50 or i == 63:
@@ -22,13 +25,3 @@ def show(screen, display):
         screen.blit(background, (0, 0))
         display.flip()
 
-    running = True
-    while running:
-        for e in event.get():
-            if e.type == QUIT:
-                running = False
-            elif e.type == KEYDOWN:
-                if e.key == K_ESCAPE:
-                    running = False
-
-    quit()

@@ -9,14 +9,18 @@ def show(screen, display):
     background = image.load('./диалоги/4этап(быт)/1.png')
 
     screen.blit(background, (0, 0))
-    for i in range(1, 123):
+    for i in range(1, 124):
+        for e in event.get():
+            if e.type == QUIT:
+                quit()
+
         if i == 25:
             time.delay(25000)
         elif i == 47:
             time.delay(25000)
         elif i == 80:
             time.delay(4000)
-        elif i == 102 or i == 121:
+        elif i == 102 or i == 122:
             time.delay(4000)
         elif i == 6 or i == 15 or i == 39:
             time.delay(4000)
@@ -28,8 +32,4 @@ def show(screen, display):
         screen.blit(background, (0, 0))
         display.flip()
 
-    while 1:
-        for i in event.get():
-            if i.type == QUIT:
-
-                sys.exit()
+   

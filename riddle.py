@@ -9,9 +9,8 @@ GREEN = (0, 255, 0)
 RED = (255, 0, 0)
 pygame.init()
 # окно
-window = pygame.display.set_mode((0, 0))
+window = pygame.display.set_mode((600, 600))
 background = pygame.image.load('./гиппократ/5.png')
-w, h = pygame.display.get_surface().get_size()
 action = False
 
 mp = pygame.mouse.get_pos()
@@ -65,6 +64,9 @@ class Sprite:
 
         if self.x < mp[0] < self.x + self.w and self.y < mp[1] < self.y + self.h:
             self.action = True  # объект активирован
+            pygame.draw.rect(screen, (0,0,0), self.rect, 4)
+            pygame.display.flip()
+            print("!!!!")
         else:
             self.action = False  # для избежания случая активации одновременно
             #  двух объектов
@@ -152,9 +154,22 @@ koord = [(margin, margin),
          (margin + (width + margin), margin + (height + margin) * 3),
          (margin + (width + margin) * 2, margin + (height + margin) * 3)]
 
-koordin = koord[:]  # копия победных координат
 # перемешиваем список координат случайным образом
-random.shuffle(koordin)
+koordin = [(margin + (width + margin), margin + (height + margin) * 3),
+           (margin + (width + margin) * 2, margin + (height + margin) * 3),
+           ((width + margin) * 2 + margin, margin),
+           (margin, margin + (height + margin) * 2),
+           ((width + margin) * 3 + margin, margin),
+           (margin, margin + (height + margin) * 3),
+           (margin + (width + margin), margin + (height + margin)),
+           (margin + (width + margin) * 3, margin + (height + margin)),
+           (margin + (width + margin) * 2, margin + (height + margin) * 2),
+           (margin, margin),
+           (margin + (width + margin), margin),
+           (margin + (width + margin), margin + (height + margin) * 2),
+           (margin + (width + margin) * 3, margin + (height + margin) * 2),
+           (margin, margin + (height + margin)),
+           (margin + (width + margin) * 2, margin + (height + margin))]
 
 # пятнашкам присваиваем случайные координаты с перемешанного списка
 i = 0
@@ -206,4 +221,10 @@ while done:  # условие существования игрового цик
     window.blit(screen, (0, 0))  # на окне прорисовываем поле игры
 
     pygame.display.flip()  # отображаем полностью дисплей(окно)
-quit()
+
+    if koordin == koord:
+
+        f = font.SysFont(None, 300)
+        img = f.render('WIN', True, (255, 0, 68))
+        screen.blit(img, (100, 100))
+        display.update()
