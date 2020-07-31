@@ -17,7 +17,7 @@ def show(screen, display):
         elif i == 77:
             time.delay(4000)
         else:
-            time.delay(250)
+            time.delay(350)
 
         background = image.load('./диалоги/2этап(шахматы)/' + str(i) + '.png')
         w, h = display.get_surface().get_size()
@@ -26,18 +26,4 @@ def show(screen, display):
         display.flip()
 
 
-def checkEvent():
-    running = True
-    while running:
-        for e in event.get():
-            if e.type == QUIT:
-                running = False
-    quit()
 
-def start(screen, display):
-    thread1 = Thread(target=checkEvent, args=())
-    thread2 = Thread(target=show, args=(screen, display))
-    thread1.start()
-    thread2.start()
-    thread1.join()
-    thread2.join()

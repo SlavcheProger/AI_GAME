@@ -12,7 +12,7 @@ def show(screen, display):
                 quit()
 
         if i == 8:
-            time.delay(25000)
+            time.delay(30000)
         else:
             time.delay(100)
         background = image.load('./диалоги/0введение/' + str(i) + '.png')

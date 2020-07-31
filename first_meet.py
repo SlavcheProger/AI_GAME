@@ -1,5 +1,6 @@
 from pygame import *
 import sys
+from playsound import playsound
 
 def show(screen, display):
     background = image.load('./диалоги/1этап(встреча)/1.png')
@@ -16,8 +17,13 @@ def show(screen, display):
             time.delay(50)
         elif i == 6:
             time.delay(4500)
-        elif i == 91 or i == 52 or i == 73 or i == 126:
+            playsound('knock.mp3')
+        elif i == 91:
+            time.delay(4000)
+        elif i == 52 or i == 73:
             time.delay(3500)
+        elif i == 126:
+            time.delay(4000)
         time.delay(250)
         background = image.load('./диалоги/1этап(встреча)/' + str(i) + '.png')
         w, h = display.get_surface().get_size()

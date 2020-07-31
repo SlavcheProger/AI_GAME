@@ -19,7 +19,7 @@ def show(screen, display):
         elif i == 47:
             time.delay(25000)
         elif i == 80:
-            time.delay(4000)
+            time.delay(5000)
         elif i == 102 or i == 122:
             time.delay(4000)
         elif i == 6 or i == 15 or i == 39:

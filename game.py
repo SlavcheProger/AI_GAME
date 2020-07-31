@@ -11,7 +11,6 @@ import expression
 import fourth_life
 import tunnel
 import division_square
-import puzzles
 import riddle
 
 init()
@@ -26,22 +25,20 @@ first_meet.show(screen, display)
 background = image.load('./background1.jpg')
 screen.blit(background, (0, 0))
 display.flip()
-time.delay(100)
+time.delay(500)
 continue_the_series.show(screen, display)
 screen.blit(background, (0, 0))
 display.flip()
+
 time.delay(500)
 
-puzzles.show(screen, display)
 tunnel.show(screen, display)
 
-second_chess.start(screen, display)
-
+second_chess.show(screen, display)
+screen.blit(background, (0, 0))
+display.flip()
+time.delay(100)
 riddle.show(screen, display)
-
-
-
-background5 = image.load('./background1.jpg')
 screen.blit(background, (0, 0))
 display.flip()
 time.delay(500)
