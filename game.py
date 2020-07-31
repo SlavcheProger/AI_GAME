@@ -12,44 +12,51 @@ import fourth_life
 import tunnel
 import division_square
 import puzzles
+import riddle
 
 init()
 screen = display.set_mode((600, 600))
+
 display.set_caption('Support Organization')
 
-#first_slide.show(screen, display)
-#intro.show(screen, display)
-#first_meet.show(screen, display)
+first_slide.show(screen, display)
+intro.show(screen, display)
+first_meet.show(screen, display)
 
-#background = image.load('./background1.jpg')
-#screen.blit(background, (0, 0))
-#display.flip()
-#time.delay(100)
-#continue_the_series.show(screen, display)
-#screen.blit(background, (0, 0))
-#display.flip()
-#time.delay(100)
+background = image.load('./background1.jpg')
+screen.blit(background, (0, 0))
+display.flip()
+time.delay(100)
+continue_the_series.show(screen, display)
+screen.blit(background, (0, 0))
+display.flip()
+time.delay(500)
 
-#puzzles.show(screen, display)
-#tunnel.show(screen, display)
-#second_chess.start(screen, display)
-riddle
-#background5 = image.load('./background1.jpg')
-#screen.blit(background, (0, 0))
-#display.flip()
-#time.delay(100)
-#find_an_expression.show(screen, display)
-#tunnel.show(screen, display)
-#third_medicine.show(screen, display)
-#screen.blit(background, (0, 0))
-#display.flip()
-#time.delay(100)
-###division_square.show(screen, display)
-#screen.blit(background, (0, 0))
-#display.flip()
-#time.delay(100)
-#expression.show(screen, display)
-#tunnel.show(screen, display)
-#fourth_life.show(screen, display)
+puzzles.show(screen, display)
+tunnel.show(screen, display)
+
+second_chess.start(screen, display)
+
+riddle.show(screen, display)
+
+
+
+background5 = image.load('./background1.jpg')
+screen.blit(background, (0, 0))
+display.flip()
+time.delay(500)
+find_an_expression.show(screen, display)
+tunnel.show(screen, display)
+third_medicine.show(screen, display)
+screen.blit(background, (0, 0))
+display.flip()
+time.delay(500)
+division_square.show(screen, display)
+screen.blit(background, (0, 0))
+display.flip()
+time.delay(500)
+expression.show(screen, display)
+tunnel.show(screen, display)
+fourth_life.show(screen, display)
 
 quit()

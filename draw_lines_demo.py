@@ -16,6 +16,7 @@ while running:
     for event in pygame.event.get():
         if event.type == QUIT:
             running = False
+
         elif event.type == KEYDOWN:
             if event.key == K_ESCAPE:
                 if len(points) > 0:
@@ -29,6 +30,7 @@ while running:
             points[-1] = event.pos
         screen.fill(GRAY)
         if len(points)>1:
+            print(points, ' ***')
             rect = pygame.draw.lines(screen, RED, False, points, 3)
             pygame.draw.rect(screen, GREEN, rect, 1)
         pygame.display.update()
